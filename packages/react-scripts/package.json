@@ -1,14 +1,14 @@
 {
-  "name": "react-scripts",
-  "version": "2.1.1",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": "facebook/create-react-app",
+  "name": "spectacle-scripts",
+  "version": "1.0.17",
+  "description": "Spectacle scripts for Create React App.",
+  "repository": "FormidableLabs/spectacle-scripts",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/FormidableLabs/spectacle-scripts/issues"
   },
   "files": [
     "bin",
@@ -54,6 +54,7 @@
     "jest-pnp-resolver": "1.0.1",
     "jest-resolve": "23.6.0",
     "mini-css-extract-plugin": "0.4.3",
+    "normalize.css": "7.0.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.1.0",
     "postcss-flexbugs-fixes": "4.1.0",
@@ -64,6 +65,7 @@
     "react-dev-utils": "^6.1.1",
     "resolve": "1.8.1",
     "sass-loader": "7.1.0",
+    "spectacle": "^4.0.0",
     "style-loader": "0.23.0",
     "terser-webpack-plugin": "1.1.0",
     "url-loader": "1.1.1",
