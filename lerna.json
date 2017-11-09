@@ -4,7 +4,11 @@
   "useWorkspaces": true,
   "version": "independent",
   "changelog": {
+<<<<<<< HEAD
     "repo": "facebook/create-react-app",
+=======
+    "repo": "FormidableLabs/spectacle-scripts",
+>>>>>>> f4cfa2f... lerna
     "labels": {
       "tag: new feature": ":rocket: New Feature",
       "tag: breaking change": ":boom: Breaking Change",
