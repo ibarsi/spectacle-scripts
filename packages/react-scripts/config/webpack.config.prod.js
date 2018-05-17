@@ -444,6 +444,12 @@ module.exports = {
               'sass-loader'
             ),
           },
+          // The raw-loader allows importing of text files so their content
+          // can be used in components like the CodePane.
+          {
+            test: [/\.txt$/, /\.md$/, /\.example$/],
+            use: 'raw-loader',
+          },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.
           // This loader doesn't use a "test" so it will catch all modules
