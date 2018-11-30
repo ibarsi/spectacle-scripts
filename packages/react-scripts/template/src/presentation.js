@@ -16,22 +16,12 @@ import {
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
+import { colours, fontFamilies } from './theme';
 
 // Require CSS
 require('normalize.css');
 
-const theme = createTheme(
-  {
-    primary: 'white',
-    secondary: '#1F2022',
-    tertiary: '#03A9FC',
-    quaternary: '#CECECE',
-  },
-  {
-    primary: 'Montserrat',
-    secondary: 'Helvetica',
-  }
-);
+const theme = createTheme(colours, fontFamilies);
 
 export default class Presentation extends React.Component {
   render() {
@@ -40,6 +30,7 @@ export default class Presentation extends React.Component {
         transition={['zoom', 'slide']}
         transitionDuration={500}
         theme={theme}
+        progress="bar"
       >
         <Slide transition={['zoom']} bgColor="primary">
           <Heading size={1} fit caps lineHeight={1} textColor="secondary">
@@ -83,7 +74,13 @@ export default class Presentation extends React.Component {
             <ListItem>Item 4</ListItem>
           </List>
         </Slide>
-        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <Slide
+          transition={['fade']}
+          bgColor="secondary"
+          textColor="primary"
+          progressColor="primary"
+          controlColor="primary"
+        >
           <BlockQuote>
             <Quote>Example Quote</Quote>
             <Cite>Author</Cite>
