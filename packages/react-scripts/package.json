@@ -1,8 +1,8 @@
 {
-  "name": "spectacle-scripts",
-  "version": "2.0.1",
-  "description": "Spectacle scripts for Create React App.",
-  "repository": "FormidableLabs/spectacle-scripts",
+  "name": "rangle-spectacle-scripts",
+  "version": "1.0.0",
+  "description": "Rangle Spectacle scripts for Create React App.",
+  "repository": "ibarsi/spectacle-scripts",
   "license": "MIT",
   "engines": {
     "node": ">=6"
