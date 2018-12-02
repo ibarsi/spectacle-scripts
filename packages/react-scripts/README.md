@@ -1,6 +1,6 @@
-# spectacle-scripts
+# rangle-spectacle-scripts
 
-This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app), with a boilerplate [Spectacle](https://github.com/FormidableLabs/spectacle) presentation provided out-of-the-box.<br>
+This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app), with a boilerplate [Spectacle](https://github.com/FormidableLabs/spectacle) presentation with a theme inspired by Rangle.io provided out-of-the-box.<br>
 
 Please refer to its documentation:
 
